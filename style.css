@@ -1,0 +1,123 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+/* nav start*/
+header{
+    background-color: #fff8f3;
+   
+}
+.container{
+     max-width: 1200px;
+    margin: auto;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+   
+}
+.nav h1{
+    padding: 10px 40px;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 18px;
+    padding: 5px 30px;
+    align-items: center;
+} 
+ul a{
+    text-decoration: none;
+    color: #474747;
+}
+.logo-color{
+    color:#fd6e0a;
+}
+.common-button{
+    color: aliceblue;
+    background-color: #fd6e0a;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+
+}
+/* nav end*/
+
+/* hero section start*/
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+     align-items: center;
+
+}
+.left-hero{
+    padding: 20px 50px;
+}
+.left-hero p{
+   color: #474747;
+   padding-bottom: 15px;
+}
+.left-hero .nam{
+
+   font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    color: #474747;
+}
+.left-hero h1{
+    font-weight: bold;
+    padding-bottom: 15px;
+
+}.common-button-cng{
+     color:#fd6e0a;
+    background-color:aliceblue ;
+    border-radius: 5px; 
+    border:2px solid #fd6e0a;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+.right-hero img{
+    max-width: 100%;
+    max-height: 100%;
+}
+/* hero section*/
+
+/*about me sectiom*/
+.about-me-section{
+     max-width: 1200px;
+    margin: 75px auto;
+    border-radius: 5px;
+
+}
+
+.about-me-container{
+    text-align: center;
+   
+    background-color:  #fff8f3;
+    padding: 10px 20px;
+
+}
+.about-me-container h2{
+    padding: 20px 0;
+}
+.about-me-container p{
+    padding: 20px 0;
+    color: #474747;
+}
+.about-me-information{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.about-me-information p{
+color: #474747;
+}

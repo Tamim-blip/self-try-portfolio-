@@ -1,6 +1,7 @@
 *{
 margin: 0;
 padding: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* nav start*/
@@ -120,4 +121,178 @@ ul a{
 }
 .about-me-information p{
 color: #474747;
+}
+/* about me section end*/
+
+
+/* what i do section start*/
+.what-i-do-section{
+    text-align: center;
+    max-width: 1200px;
+    margin: 75px auto;
+    padding: 10px 30px;
+}
+.what-i-do-section h3{
+    padding-bottom: 30px;
+}
+.what-i-do-section p{
+    color: #474747;
+    padding-bottom: 15px;
+}
+.what-i-do-box{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 10px 20px;
+}
+.box{
+     border: 1px solid #fd6e0a;
+    border-radius: 8px;
+   text-align: start;
+   padding: 10px;
+   background-color: antiquewhite;
+}
+.box img{
+    padding-bottom: 10px;
+}
+.box h5{
+    padding-bottom: 7px;
+}
+.box p{
+    padding-top: 5px;
+    color: #474747;
+}
+/* what i do section end*/
+
+
+/* summary of my resume start*/
+.sammary-section{
+    text-align: center;
+    max-width: 1200px;
+    margin: 75px auto;
+    padding: 15px;
+}
+.sammary-section h2{
+    padding-bottom: 60px;
+}
+.resume-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: start;
+   gap: 10px;
+   
+}
+.resume-container .resume-info{
+    padding-bottom: 20px;
+}
+.resume-box{
+      border-bottom: 1px solid #ddd;
+    
+}
+.resume-box h4{
+ padding-bottom: 4px;
+}
+.resume-box h5{
+ padding-bottom: 8px;
+ color: #474747;
+}
+.resume-box p{
+padding-bottom: 6px;
+color: #474747;
+}
+.resume-box .common-button{
+    padding-top: 15px;
+}
+.resume-boxes{
+    padding-bottom: 20px;
+}
+/*summary of my resume  end*/
+/* my amaging work start*/
+.my-amaging-works-section{
+    max-width: 1200px;
+    margin: 75px auto;
+    text-align: center;
+}
+.photos{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 12px;
+    grid-auto-rows: 250px;
+    grid-template-areas: 
+    "one two three"
+    "one five three"
+    "four five six"
+}
+.photos img{
+      height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.one{
+    grid-area: one;
+}
+.two{
+    grid-area: two;
+}
+.three{
+    grid-area: three;
+}
+.four{
+    grid-area: four;
+}
+.five{
+    grid-area: five;
+}
+.six{
+    grid-area: six;
+}
+/*my amaging work end*/
+/*footer start*/
+.footer-div{
+    background-color:antiquewhite;
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px;
+
+}
+
+.left-footer h3{
+    padding-bottom: 20px;
+
+}
+.left-footer p{
+    padding-bottom: 15px;
+    color: #474747;
+}
+.footer-icon{
+    padding: 10px;
+}
+
+.right-footer form{
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    
+
+}
+
+.right-footer h3{
+    padding-bottom: 25px;
+}
+.right-footer form input, textarea{
+    padding: 12px;
+    border: none;
+}
+   
+
+.right-footer .common-button{
+    width: 25%;
 }
